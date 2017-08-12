@@ -1,3 +1,5 @@
 [user]
 	email = ale-roy@student.42.fr
 	name = Alexandre Le Roy
+[core]
+	excludesfile = /home/alr/.gitignore
