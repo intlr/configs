@@ -1,0 +1,6 @@
+--audio-format mp3
+--continue
+--extract-audio
+--output "%(title)s.%(ext)s"
+--restrict-filenames
+--retries 3
