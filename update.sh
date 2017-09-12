@@ -47,6 +47,12 @@ echo 'Link zsh configuration...' \
     $REPOSITORY/.zshrc \
 	$HOME/.zshrc
 
+echo 'Link zsh personal theme...' \
+  && mkdir -p $HOME/.oh-my-zsh/themes/ \
+  && ln -fs \
+    $REPOSITORY/.oh-my-zsh/themes/alr.zsh-theme \
+	$HOME/.oh-my-zsh/themes/alr.zsh-theme
+
 ## directory structure
 create_dirs()
 {

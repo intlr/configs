@@ -6,7 +6,7 @@
 "    By: pbondoer <pbondoer@student.42.fr>          +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2015/12/06 19:39:01 by pbondoer          #+#    #+#              "
-"    Updated: 2017/08/12 22:23:36 by marvin           ###   ########.fr        "
+"    Updated: 2017/09/11 00:55:16 by ale-roy          ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -152,5 +152,5 @@ endfunction
 
 " Bind command and shortcut
 command! Stdheader call s:stdheader ()
-nmap <f1> <esc>:Stdheader<CR>
+nmap <C-h> <esc>:Stdheader<CR>
 autocmd BufWritePre * call s:update ()
