@@ -58,6 +58,7 @@ create_dirs()
 {
   echo 'Create directories...' \
     && mkdir -p \
+      $HOME/binaries \
       $HOME/resources/desktop \
       $HOME/resources/documents \
       $HOME/resources/downloads \
