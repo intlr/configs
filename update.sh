@@ -16,7 +16,10 @@ echo 'Link git configurations...' \
     $HOME/.gitconfig \
   && ln -fs \
     $REPOSITORY/.gitignore\
-    $HOME/.gitignore
+    $HOME/.gitignore \
+  && ln -fs \
+    $REPOSITORY/.gitcommit \
+    $HOME/.gitcommit
 
 ## ssh
 echo 'Link ssh configuration...' \
