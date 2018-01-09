@@ -8,6 +8,3 @@
 
 [push]
 	default = simple
-
-[commit]
-	template = ~/.gitcommit
