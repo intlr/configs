@@ -1,10 +1,8 @@
 [user]
-	email = ale-roy@student.42.fr
-	name = Alexandre Le Roy
 
 [core]
 	excludesfile = ~/.gitignore
 	editor = vim
 
-[push]
-	default = simple
+[pager]
+	branch = false
