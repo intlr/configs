@@ -2,6 +2,13 @@
 
 Personal configuration files
 
+## Table of contents
+
+- [Getting started](#getting-started)
+- [Specific](#specific)
+    - [Linux](#linux)
+- [License](#license)
+
 ## Getting started
 
 1. Define variables
@@ -13,7 +20,12 @@ Personal configuration files
 1. Create directories
 
     ```
-    mkdir -p $HOME/.oh-my-zsh/themes/ $HOME/.ssh/ $HOME/binary/ $HOME/project/ $HOME/resource/
+    mkdir -p $HOME/.config/ \
+        $HOME/.oh-my-zsh/themes/ \
+        $HOME/.ssh/ \
+        $HOME/binary/ \
+        $HOME/project/ \
+        $HOME/resource/
     ```
 
 1. Download configuration files
@@ -25,6 +37,25 @@ Personal configuration files
     curl -s ${BASE_URI}.ssh/config -o $HOME/.ssh/config
     curl -s ${BASE_URI}.vimrc -o $HOME/.vimrc
     curl -s ${BASE_URI}.zshrc -o $HOME/.zshrc
+    ```
+
+## Specific
+
+### Linux
+
+1. Move generic directories
+
+    ```
+    mkdir -p $HOME/resource/desktop \
+        $HOME/resource/document \
+        $HOME/resource/download \
+        $HOME/resource/music \
+        $HOME/resource/picture \
+        $HOME/resource/public \
+        $HOME/resource/template \
+        $HOME/resource/video
+
+    curl -s ${BASE_URI}.config/user-dirs.dirs -o $HOME/.config/user-dirs.dirs
     ```
 
 ## License
